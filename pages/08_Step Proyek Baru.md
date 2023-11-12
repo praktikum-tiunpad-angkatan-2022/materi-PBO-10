@@ -3,12 +3,11 @@
 
   <div class="flex-row text-sm">
 
-  # Pembuatan Proyek Baru
+  # Buat Proyek Baru dalam Netbeans
 
   <ol>
-    <li>Buat folder baru untuk proyeknya</li>
-    <li>Run <code>gradle init</code> di dalam folder tersebut</li>
-    <li>Jawab pertanyaan konfigurasinya sesuai yang diinginkan</li>
+    <li>Buat project baru dalam Netbeans</li>
+    <li>Pilih <code>Java with Ant</code> dan pilih opsi Java application</li>
   </ol>
 
   </div>

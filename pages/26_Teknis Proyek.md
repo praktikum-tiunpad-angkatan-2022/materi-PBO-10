@@ -4,7 +4,7 @@
   <div class="flex-row">
 
   Link Assignment:
-	https://classroom.github.com/a/1uZkIZCk
+	[Sorry Belum Dibuat]
 
   Untuk nama kelompok, gunakan format “<b class="text-yellow">Kelompok KELAS-XX</b>”, misal
   “<b>Kelompok B-02</b>”

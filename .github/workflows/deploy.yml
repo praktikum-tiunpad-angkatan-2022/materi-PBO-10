@@ -1,5 +1,5 @@
 name: Deploy pages
-on:
+on: 
   push:
     branches:
       - main
@@ -8,15 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: '18'
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: Install dependencies
-        run: npm install
-      - name: Install slidev
-        run: npm i -g @slidev/cli
+        run: pnpm i
       - name: Build
-        run: slidev build --base /materi-PBO-10/
+        run: pnpm run build --base /materi-PBO-09/ # ganti N jadi nomor pertemuan (supaya menjadi nama repo)
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:

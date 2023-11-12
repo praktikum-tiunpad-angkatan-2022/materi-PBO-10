@@ -1,11 +1,11 @@
-# Menjalankan Proyek
+# Menambahkan Library dalam Project
 
 <div class="grid grid-cols-4 gap-y-10 gap-x-6 pt-10">
   <div class="flex-row col-span-1 text-sm">
 
-  Run `./gradlew run` dalam folder proyek.
+  Klik kanan folder `Libraries` dan pilih opsi `Add JAR/Folder...`.
 
-  Jika tidak jalan, boleh coba untuk run `.\gradlew.bat run`
+  Lalu, cari JAR file yang telah kalian keluarkan, pilih, dan tekan `Open`
 
 
   </div>

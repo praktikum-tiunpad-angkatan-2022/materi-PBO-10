@@ -35,37 +35,31 @@ src: ./pages/03_Cover Materi Pertemuan.md
 src: ./pages/04_Materi Pertemuan.md
 ---
 ---
-src: ./pages/05_Cover Gradle.md
+src: ./pages/05_Cover JDBC.md
 ---
 ---
-src: ./pages/06_Pengenalan Gradle.md
+src: ./pages/06_Pengenalan JDBC.md
 ---
 ---
-src: ./pages/07_Instalasi Gradle.md
+src: ./pages/07_Instalasi JDBC.md
 ---
 ---
-src: ./pages/08_Pembuatan Proyek Baru.md
+src: ./pages/08_Step Proyek Baru.md
 ---
 ---
-src: ./pages/09_Menjalankan Proyek.md
+src: ./pages/09_Menambahkan Library dalam Project.md
 ---
 ---
-src: ./pages/10_Cover JavaFX.md
+src: ./pages/10_Buat Objek Konektor.md
 ---
 ---
-src: ./pages/11_Menambahkan JavaFX.md
+src: ./pages/11_Contoh CRUD.md
 ---
 ---
-src: ./pages/12_Menambahkan JavaFX 2.md
+src: ./pages/14_Cover Proyek Akhir.md
 ---
 ---
-src: ./pages/13_Mencoba JavaFX.md
----
----
-src: ./pages/14_Contoh.md
----
----
-src: ./pages/15_Cover Proyek Akhir.md
+src: ./pages/15_Scope Proyek Akhir.md
 ---
 ---
 src: ./pages/16_Cover Scrum Framework.md
@@ -108,9 +102,6 @@ src: ./pages/28_Cover Assignment.md
 ---
 ---
 src: ./pages/29_Assignment_1.md
----
----
-src: ./pages/30_Assignment_2.md
 ---
 ---
 src: ./pages/Y_Deadline.md
