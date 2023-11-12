@@ -32,10 +32,10 @@ Berikut adalah contoh implementasi CRUD menggunakan JDBC :
         }
       }
       ```
-    </div>
-    <br>
-    <div class='flex-row'>
-      <img src="/img/11_1.png">
-    </div>
+  </div>
+  <br>
+  <div class='flex-row'>
+    <img src="/img/11_1.png">
+  </div>
   </div>
 </div>
