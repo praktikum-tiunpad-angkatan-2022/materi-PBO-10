@@ -50,10 +50,16 @@ src: ./pages/08_Step Proyek Baru.md
 src: ./pages/09_Menambahkan Library dalam Project.md
 ---
 ---
-src: ./pages/10_Buat Objek Konektor.md
+src: ./pages/10_Memakai JDBC.md
 ---
 ---
-src: ./pages/11_Contoh CRUD.md
+src: ./pages/11_Buat Objek Konektor.md
+---
+---
+src: ./pages/12_Contoh CRUD.md
+---
+---
+src: ./pages/13_Contoh CRUD 2.md
 ---
 ---
 src: ./pages/14_Cover Proyek Akhir.md
