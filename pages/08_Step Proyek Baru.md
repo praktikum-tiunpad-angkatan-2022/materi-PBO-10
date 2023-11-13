@@ -13,7 +13,7 @@
   </div>
   <div class="flex-row col-span-3">
 
-  <img width=600 src="/img/8_1.png">
+  <img width=400 src="/img/8_1.png">
 
   </div>
 </div>

@@ -1,7 +1,7 @@
 # Buat objek Konektor
 
 <div class="grid grid-cols-2 gap-y-10 gap-x-6 mt-8">
-<div class='flex-row text-sm'>
+<div class='flex-row text-xs'>
 
 Contoh implementasi objek konektor : 
 

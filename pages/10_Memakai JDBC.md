@@ -8,7 +8,7 @@ Untuk membuat hubungan antara aplikasi dan database, implementasikan kode beriku
 Tips : Agar lebih modular, sebaiknya snippet kode ini dijadikan kelasnya sendiri. 
 
 </div>
-<div class='flex-row text-sm'>
+<div class='flex-row text-xs'>
 
 ```java 
 import java.sql.*;

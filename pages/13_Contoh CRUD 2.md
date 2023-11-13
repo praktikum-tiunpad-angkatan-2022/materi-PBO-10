@@ -29,6 +29,6 @@ public class Test {
   </div>
       
   <div class='flex-row'>
-    <img src="/img/13_1.png">
+    <img width=300 src="/img/13_1.png">
   </div>
 </div>
