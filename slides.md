@@ -56,6 +56,9 @@ src: ./pages/10_Memakai JDBC.md
 src: ./pages/11_Buat Objek Konektor.md
 ---
 ---
+src: ./pages/11.2_Buat Objek Konektor 2.md
+---
+---
 src: ./pages/12_Contoh CRUD.md
 ---
 ---
