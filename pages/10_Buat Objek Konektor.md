@@ -12,7 +12,7 @@ Tips : Agar lebih modular, sebaiknya snippet kode ini dijadikan kelasnya sendiri
 
 ```java 
 String driver = "com.mysql.cj.jdbc.Driver";
-String db = "jdbc:mysql://localhost/[NAMA_DATABASE]";
+String db = "jdbc:mysql://localhost/NAMA_DATABASE"; // Bila ada yang instance mysqlnya pindah port, tuliskan menjadi 'localhost:PORT/NAMA_DATABASE'
 String user = "root"; // Bila username berbeda, ganti baris ini
 String password = ""; // Bila instance MySQL memiliki password, isi baris ini
 Connection conn = NULL;
@@ -21,7 +21,7 @@ Statement state = NULL;
 try{
     Class.forName(driver);
 } catch(Exception e){
-    System.out.println("Driver Error"); // Bila ada 
+    System.out.println("Driver Error"); 
 } 
 
 try{
@@ -32,7 +32,11 @@ try{
 }
 
 System.out.println("Database Connected");
-state.executeUpdate("[QUERY_MYSQL]");
+try{ 
+    state.executeUpdate("MYSQL QUERY");
+} catch(Exception e){
+    System.out.println("Error");
+}
 ```
 
 </div>

@@ -3,8 +3,7 @@
 <div class="grid grid-cols-2 gap-y-10 gap-x-6">
   <div class="flex-row">
 
-  Link Assignment:
-	[Sorry Belum Dibuat]
+  Link Assignment: https://classroom.github.com/a/W-vE2BBb
 
   Untuk nama kelompok, gunakan format “<b class="text-yellow">Kelompok KELAS-XX</b>”, misal
   “<b>Kelompok B-02</b>”

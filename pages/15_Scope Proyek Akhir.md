@@ -10,6 +10,7 @@ layout: intro
 <span class='text-orange'>3.</span> Mengimplementasikan GUI dalam aplikasi. <br>
 <span class='text-orange'>4.</span> Data dalam aplikasi dapat tersimpan dalam sebuah database. <br>
 <span class='text-orange'>5.</span> Database memiliki 3 tabel atau lebih. <br>
-<span class='text-orange'>6.</span> Mengimplementasikan Autentikas. <br>
-<span class='text-orange'>7.</span> Gunakan modularitas pada sturktur kode, misalkan class Mahasiswa dan Dosen dipisahkan. <br>
+<span class='text-orange'>6.</span> Mengimplementasikan Autentikasi. <br>
+<span class='text-orange'>7.</span> Aplikasi mengimplementasikan CRUD. <br>
+<span class='text-orange'>8.</span> Gunakan modularitas pada sturktur kode, misalkan class Mahasiswa dan Dosen dipisahkan. <br>
 </div>

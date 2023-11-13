@@ -5,34 +5,38 @@ Berikut adalah contoh implementasi CRUD menggunakan JDBC :
   <div class='flex-row'>
     <div class='text-xl'>
 
-        ```java 
-        public class Koneksi {
-          public static void main(String args[]) {
-            String driver = "com.mysql.cj.jdbc.Driver";
-            String db = "jdbc:mysql://localhost/test_koneksi";
-            String user = "root"; // Bila username berbeda, ganti baris ini
-            String password = ""; // Bila instance MySQL memiliki password, isi baris ini
-            Connection conn = NULL;
-            Statement state = NULL;
+```java 
+public class Koneksi {
+  public static void main(String args[]) {
+    String driver = "com.mysql.cj.jdbc.Driver";
+    String db = "jdbc:mysql://localhost/test_koneksi";
+    String user = "root"; // Bila username berbeda, ganti baris ini
+    String password = ""; // Bila instance MySQL memiliki password, isi baris ini
+    Connection conn = NULL;
+    Statement state = NULL;
 
-            try{
-                Class.forName(driver);
-            } catch(Exception e){
-                System.out.println("Driver Error"); // Bila ada 
-            } 
+    try{
+        Class.forName(driver);
+    } catch(Exception e){
+        System.out.println("Driver Error"); // Bila ada 
+    } 
 
-            try{
-                conn = (Connection)DriverManager.getConnection(db, user, password);
-                state = (Statement) con.createStatement();
-            } catch(Exception e){
-                System.out.println("Connection Error");
-            }
+    try{
+        conn = (Connection)DriverManager.getConnection(db, user, password);
+        state = (Statement) con.createStatement();
+    } catch(Exception e){
+        System.out.println("Connection Error");
+    }
 
-            System.out.println("Database Connected");
-            state.executeUpdate("INSERT INTO `game` (`id`, `name`, `genre`, `description`) VALUES ('3', 'ML', 'MOBA', 'Stress'); ");
-          }
-        }
-        ```
+    System.out.println("Database Connected");
+    try{ 
+      state.executeUpdate("INSERT INTO `game` (`id`, `name`, `genre`, `description`) VALUES ('3', 'ML', 'MOBA', 'Stress'); ");
+    } catch(Exception e){
+      System.out.println("Error");
+    }
+  }
+}
+```
         
   </div>
   <br>
