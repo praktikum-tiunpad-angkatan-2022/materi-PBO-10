@@ -4,6 +4,7 @@ Berikut adalah contoh implementasi CRUD menggunakan JDBC :
 <div class="grid grid-cols-2 gap-y-10 gap-x-6 mt-8">
   <div class='flex-row'>
     <div class='text-xl'>
+
         ```java 
         public class Koneksi {
           public static void main(String args[]) {
@@ -32,6 +33,7 @@ Berikut adalah contoh implementasi CRUD menggunakan JDBC :
           }
         }
         ```
+        
   </div>
   <br>
   <div class='flex-row'>
