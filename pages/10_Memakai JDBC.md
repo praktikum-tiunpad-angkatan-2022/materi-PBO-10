@@ -10,6 +10,7 @@ Tips : Agar lebih modular, sebaiknya snippet kode ini dijadikan kelasnya sendiri
 </div>
 <div class='flex-row text-xs'>
 
+:::scrollable
 ```java 
 import java.sql.*;
 public class Test{
@@ -43,6 +44,7 @@ public class Test{
     }
 }
 ```
+:::
 
 </div>
 </div>
