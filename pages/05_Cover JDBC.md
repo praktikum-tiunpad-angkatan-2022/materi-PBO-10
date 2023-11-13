@@ -8,5 +8,5 @@ class: text-center
 </span>
 
 <h1 class='font-bold mt-12'>
-JDBS
+JDBC
 </h1>

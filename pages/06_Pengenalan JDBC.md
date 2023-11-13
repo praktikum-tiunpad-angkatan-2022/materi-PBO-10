@@ -3,9 +3,9 @@ layout: center
 class: text-center
 ---
 
-# Gradle
+# JDBC
 
  <br>
 
-<span class='text-yellow'>JDBC</span> Java Database Connector adalah sebuah penguhubung antara aplikasi Java dengan sebuah database.
+<span class='text-yellow'>Java Database Connector</span> adalah sebuah penguhubung antara aplikasi Java dengan sebuah database.
 
