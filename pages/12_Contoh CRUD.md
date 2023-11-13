@@ -9,7 +9,9 @@ Berikut adalah contoh implementasi CRUD menggunakan JDBC :
 public class Test {
   public static void main(String args[]) {
     Konektor conn = new Konektor();
-    conn.query("INSERT INTO `game` (`id`, `name`, `genre`, `description`) VALUES ('5', 'Huniepop', 'Puzzle', 'Candy crush + Anime');");
+    conn.query("INSERT INTO `game` 
+      (`id`, `name`, `genre`, `description`) VALUES 
+      ('5', 'Huniepop', 'Puzzle', 'Candy crush + Anime');");
   }
 }
 ```

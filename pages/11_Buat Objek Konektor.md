@@ -5,10 +5,7 @@
 
 Contoh implementasi objek konektor : 
 
-</div>
-<div class='flex-row'>
-
-```java 
+```java
 import java.sql.*;
 public class Konektor{
     public static void Konektor() {
@@ -34,7 +31,12 @@ public class Konektor{
 
         System.out.println("Database Connected");
     }
+```
 
+</div>
+<div class='flex-row'>
+
+```java 
     // Untuk Create, Update, atau Delete
     public void query(string stringQuery) {
         try{ 

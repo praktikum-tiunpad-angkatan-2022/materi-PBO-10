@@ -1,4 +1,4 @@
-# Buat objek Konektor
+# Menggunakan JDBC
 
 <div class="grid grid-cols-2 gap-y-10 gap-x-6 mt-8">
 <div class='flex-row'>
