@@ -1,22 +1,33 @@
 # Buat objek Konektor
 
 <div class="grid grid-cols-2 gap-y-10 gap-x-6 mt-8">
-<div class='flex-row text-xs'>
+<div class='flex-row'>
 
 Contoh implementasi objek konektor : 
 
 ```java
 import java.sql.*;
 public class Konektor{
-        private String driver = "com.mysql.cj.jdbc.Driver";
-        private String db = "jdbc:mysql://localhost/NAMA_DATABASE"; 
-        // Bila ada yang instance mysqlnya pindah port, tuliskan menjadi 'localhost:PORT/NAMA_DATABASE'
-        private String user = "root"; // Bila username berbeda, ganti baris ini
-        private String password = ""; // Bila instance MySQL memiliki password, isi baris ini
-        private Connection conn = null;
-        private Statement state = null;
-        private ResultSet rs = null;
+    private String driver = "com.mysql.cj.jdbc.Driver";
+    private String db = "jdbc:mysql://localhost/NAMA_DATABASE"; 
+    // Bila ada yang instance mysqlnya pindah port, tuliskan menjadi 'localhost:PORT/NAMA_DATABASE'
+    private String user = "root"; // Bila username berbeda, ganti baris ini
+    private String password = ""; // Bila instance MySQL memiliki password, isi baris ini
+    private Connection conn = null;
+    private Statement state = null;
+    private ResultSet rs = null;
 
+    ...
+}
+
+        
+```
+
+</div>
+<div class='flex-row'>
+
+```java 
+    // Constructor 
     public static void Konektor() {
 
         try{
@@ -30,37 +41,10 @@ public class Konektor{
             state = (Statement) conn.createStatement();
         } catch(Exception e){
             System.out.println("Connection Error");
-        
-```
-
-</div>
-<div class='flex-row text-sm'>
-
-```java 
         }
 
         System.out.println("Database Connected");
     }
-    // Untuk Create, Update, atau Delete
-    public void query(string stringQuery) {
-        try{ 
-            state.executeUpdate(stringQuery);
-        } catch(Exception e){
-            System.out.println("Error");
-        }
-    }
-
-    // Untuk Read
-    public ResultSet getData(String SQLString){
-        try {
-        state = (Statement) con.createStatement();
-        rs = state.executeQuery(SQLString);
-        } catch(Exception e){
-            System.out.println("Query Error");
-        }
-        return rs;
-    }
-}
 ```
 
 </div>
