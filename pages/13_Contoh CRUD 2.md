@@ -3,7 +3,7 @@ Berikut adalah contoh implementasi CRUD menggunakan JDBC :
 
 <div class="grid grid-cols-2 gap-y-10 gap-x-6 mt-8">
   <div class='flex-row'>
-    <div class='text-xl'>
+    
 
 ```java 
 import java.sql.ResultSet;
@@ -26,11 +26,9 @@ public class Test {
   }
 }
 ```
-        
   </div>
-  <br>
+      
   <div class='flex-row'>
     <img src="/img/13_1.png">
-  </div>
   </div>
 </div>

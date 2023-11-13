@@ -1,7 +1,7 @@
 # Buat objek Konektor
 
 <div class="grid grid-cols-2 gap-y-10 gap-x-6 mt-8">
-<div class='flex-row'>
+<div class='flex-row text-sm'>
 
 Contoh implementasi objek konektor : 
 
@@ -34,7 +34,7 @@ public class Konektor{
 ```
 
 </div>
-<div class='flex-row'>
+<div class='flex-row text-sm'>
 
 ```java 
     // Untuk Create, Update, atau Delete
