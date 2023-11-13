@@ -8,13 +8,16 @@ Contoh implementasi objek konektor :
 ```java
 import java.sql.*;
 public class Konektor{
+        private String driver = "com.mysql.cj.jdbc.Driver";
+        private String db = "jdbc:mysql://localhost/NAMA_DATABASE"; 
+        // Bila ada yang instance mysqlnya pindah port, tuliskan menjadi 'localhost:PORT/NAMA_DATABASE'
+        private String user = "root"; // Bila username berbeda, ganti baris ini
+        private String password = ""; // Bila instance MySQL memiliki password, isi baris ini
+        private Connection conn = null;
+        private Statement state = null;
+        private ResultSet rs = null;
+
     public static void Konektor() {
-        String driver = "com.mysql.cj.jdbc.Driver";
-        String db = "jdbc:mysql://localhost/NAMA_DATABASE"; // Bila ada yang instance mysqlnya pindah port, tuliskan menjadi 'localhost:PORT/NAMA_DATABASE'
-        String user = "root"; // Bila username berbeda, ganti baris ini
-        String password = ""; // Bila instance MySQL memiliki password, isi baris ini
-        Connection conn = null;
-        Statement state = null;
 
         try{
             Class.forName(driver);
@@ -27,16 +30,17 @@ public class Konektor{
             state = (Statement) conn.createStatement();
         } catch(Exception e){
             System.out.println("Connection Error");
-        }
-
-        System.out.println("Database Connected");
-    }
+        
 ```
 
 </div>
 <div class='flex-row text-sm'>
 
 ```java 
+        }
+
+        System.out.println("Database Connected");
+    }
     // Untuk Create, Update, atau Delete
     public void query(string stringQuery) {
         try{ 

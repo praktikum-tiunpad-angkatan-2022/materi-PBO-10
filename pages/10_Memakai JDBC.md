@@ -3,14 +3,9 @@
 <div class="grid grid-cols-2 gap-y-10 gap-x-6 mt-8">
 <div class='flex-row'>
 
-Untuk membuat hubungan antara aplikasi dan database, implementasikan kode berikut : 
-
+Untuk membuat hubungan antara aplikasi dan database, implementasikan kode berikut :
 Tips : Agar lebih modular, sebaiknya snippet kode ini dijadikan kelasnya sendiri. 
 
-</div>
-<div class='flex-row text-xs'>
-
-:::scrollable
 ```java 
 import java.sql.*;
 public class Test{
@@ -27,7 +22,12 @@ public class Test{
         } catch(Exception e){
             System.out.println("Driver Error"); 
         } 
+```
 
+</div>
+<div class='flex-row text-xs'>
+
+```java 
         try{
             conn = (Connection)DriverManager.getConnection(db, user, password);
             state = (Statement) conn.createStatement();
@@ -44,7 +44,7 @@ public class Test{
     }
 }
 ```
-:::
 
 </div>
+
 </div>
