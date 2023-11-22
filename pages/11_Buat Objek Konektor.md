@@ -28,7 +28,7 @@ public class Konektor{
 
 ```java 
     // Constructor 
-    public static void Konektor() {
+    public void Konektor() {
 
         try{
             Class.forName(driver);
